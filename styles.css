@@ -1,0 +1,152 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+a {
+	color: #0CA5B0;
+}
+
+body {
+	font-family: 'Open Sans';
+	font-size: 16px;
+	margin: 0;
+}
+
+footer {
+	background-color: #A5B3AA;
+	padding: 0.5em;
+	text-align: center;
+}
+
+footer a {
+	color: rgba(255, 255, 255, 0.7);
+	text-decoration: none;
+}
+
+header {
+	background: #0CA5B0;
+	overflow: hidden;
+	padding: 0.5em;
+}
+
+header h1 {
+	margin: 0;
+}
+
+nav {
+	background: #4E3F30;
+	box-shadow: rgba(78, 63, 48, 1) 0px 5px 20px;
+	top: 43px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	color: #F8F4E4;
+	display: block;
+	padding: 0.4em;
+	text-decoration: none;
+}
+
+header #logo {
+
+	float: left;
+}
+
+header #logo h1 {
+	color: #4E3F30;
+}
+
+header #logo h1 span {
+	color: #F8F4E4;
+}
+
+header #slogan {
+	float: right;
+	margin-top: 1em;
+}
+
+header #slogan p {
+	color: #4E3F30;
+	font-style: italic;
+	font-weight: bold;
+	margin: 0;
+}
+
+#contenido {
+	background: #FEFEEB;
+	margin-top: 93px;
+	padding: 0.5em;
+}
+
+#contenido .item {
+	background: #F8F4E4;
+	border-bottom: 3px solid #4E3F30;
+	box-shadow: rgba(78, 63, 48, 1) 0px 5px 20px;
+	margin-bottom: 1.5em;
+	min-height: 120px;
+	overflow: hidden;
+}
+
+#contenido .item .item_country {
+	color: #A5B3AA;
+}
+
+#contenido .item .item_country a {
+	color: #4E3F30;
+	font-style: italic;
+	text-decoration: none;
+}
+
+#contenido .item .item_image {
+	float: left;
+	margin: 0 0.5em 0 0;
+	width: 120px;
+	height: 120px;
+}
+
+#contenido .item .item_image img{
+	width: 120px;
+}
+
+#contenido .item .item_tags {
+	margin-top: 1em;
+	float: right;
+	padding-right: 0.5em;
+}
+
+#contenido .item .item_tags a {
+	background-color: #0CA5B0;
+	color: #FEFEEB;
+	text-decoration: none;
+	text-shadow: rgba(0,0,0, 0.8) 2px 2px 5px;
+	padding: 0 0.2em 0 0.2em;
+
+}
+
+#contenido .item .item_title {
+	padding: 0.2em 0.2em 0 0.5em;
+}
+
+#contenido .item .item_title a {
+	text-decoration: none;
+}
+
+#contenido .item .item_title h2 {
+	font-size: 1.2em;
+	margin: 0;
+}
+
+#top {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
